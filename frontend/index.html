@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-shopping-cart"></i> Shopping List</h1>
+        
+        <div class="add-item-container">
+            <input type="text" id="newItem" placeholder="Add an item...">
+            <button id="addButton">
+                <i class="fas fa-plus"></i> Add
+            </button>
+        </div>
+
+        <ul id="shoppingList" class="shopping-list">
+            <!-- Items will be added here dynamically -->
+        </ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
